@@ -1,6 +1,6 @@
 @font-face {
     font-family: nimbus;
-    src: url(./NimbusSanL-Reg.ttf);
+    src: url(./NimbusSanL-Reg.woff2);
 }
 
 *{
@@ -151,21 +151,21 @@ html,body{
 #onespan{
     width: 80px;
     height: 50px;
-    background-image: url(./dog.jpg);
+    background-image: url(./dog.webp);
     background-size: cover;
     background-position: center;
 }
 #twospan{
     width: 130px;
     height: 60px;
-    background-image: url(./shaljam.jpg);
+    background-image: url(./shaljam.webp);
     background-size: cover;
     background-position: 0% 47%;
 }
 #threespan{
     width: 80px;
     height: 50px;
-    background-image: url(./grass.jpg);
+    background-image: url(./grass.webp);
     background-size: cover;
     background-position: center;
 }
@@ -235,6 +235,7 @@ html,body{
     object-position: 0% 70%;
     object-fit: cover;
 }
+
 #btext{
     width: 35%;
     padding: 0 3vw;
